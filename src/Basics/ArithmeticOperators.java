@@ -1,3 +1,5 @@
+package Basics;
+
 class ArithmeticOperators {
     public static void main(String[] args) {
         int x = 8;
