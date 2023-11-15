@@ -11,7 +11,7 @@ public class EvenOdd {
         int a=s.nextInt();
         s.close();
 
-        if(a/2==0){
+        if(a%2==0){
             System.out.println("The number "+a+" is even");
         }else{
             System.out.println("The number "+a+" is odd");
