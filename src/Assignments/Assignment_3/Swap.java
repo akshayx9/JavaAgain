@@ -25,6 +25,6 @@ public class Swap {
         int x3=10, y3=20;
         x3=(x3*y3)/(y3=x3);
         System.out.println(x3);
-        System.out.println(y3);
+        System.out.println(y3); 
     }    
 }
