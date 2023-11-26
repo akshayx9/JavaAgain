@@ -1,4 +1,4 @@
-package oops;
+package oops.Inheritance;
 
 public class Student extends Teacher {
 
@@ -24,5 +24,5 @@ public class Student extends Teacher {
         System.out.println(s.age);
         System.out.println(s.rollNo);
     }
-    
+
 }

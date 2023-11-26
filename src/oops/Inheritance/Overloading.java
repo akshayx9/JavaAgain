@@ -1,16 +1,16 @@
-package oops;
+package oops.Inheritance;
 
 public class Overloading {
-    
-    public void m1(){
+
+    public void m1() {
         System.out.println("m1() with no-args");
     }
 
-    public void m1(int x){
+    public void m1(int x) {
         System.out.println("m1() with int args");
     }
 
-    public void m1(float f){
+    public void m1(float f) {
         System.out.println("m1() with float args");
     }
 
