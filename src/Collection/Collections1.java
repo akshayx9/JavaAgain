@@ -1,5 +1,7 @@
 package Collection;
 
+//Operation that can be performed using the Collections class
+
 import java.util.ArrayList;
 import java.util.Collections;
 
