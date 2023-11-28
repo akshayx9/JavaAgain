@@ -1,9 +1,9 @@
-package Collections;
+package Collection;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.ListIterator;
 
-public class Iterators {
+public class ListIterators {
     public static void main(String[] args) {
 
         ArrayList<Object> list = new ArrayList<>();
@@ -14,13 +14,14 @@ public class Iterators {
         System.out.println(list);
         System.out.println("*******************");
 
-        Iterator<Object> itr = list.iterator();
+        ListIterator<Object> itr = list.listIterator();
         while (itr.hasNext()) {
             Integer i1 = (Integer) itr.next();
-            if (i1 % 2 == 0) {
-                System.out.println(i1);
-            } else {
-                itr.remove();
+            if (i1 == 2) {
+                itr.set(200);
+            }
+            if (i1 == 10) {
+                itr.add(11);
             }
         }
         System.out.println("Final List::" + list);
